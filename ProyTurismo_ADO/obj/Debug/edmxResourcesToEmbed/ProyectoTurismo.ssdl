@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProyectoTurismoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Tb_Alojamiento">
+    <Key>
+      <PropertyRef Name="ID_Alojamiento" />
+    </Key>
+    <Property Name="ID_Alojamiento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nom_Alo" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ID_Cliente" Type="int" Nullable="false" />
+    <Property Name="ID_Ubicacion" Type="int" Nullable="false" />
+    <Property Name="ID_Categoria" Type="int" Nullable="false" />
+    <Property Name="Usu_Reg" Type="varchar" MaxLength="50" />
+    <Property Name="Fec_Reg" Type="datetime" />
+    <Property Name="Usu_ult_Mod" Type="varchar" MaxLength="50" />
+    <Property Name="Fec_ult_mod" Type="datetime" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Tb_Categoria">
+    <Key>
+      <PropertyRef Name="ID_Categoria" />
+    </Key>
+    <Property Name="ID_Categoria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Des_Cat" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Tar_Por_Noc" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="Caracteristicas" Type="varchar(max)" />
+    <Property Name="Foto" Type="varbinary(max)" />
+    <Property Name="Usu_Reg" Type="varchar" MaxLength="50" />
+    <Property Name="Fec_Reg" Type="datetime" />
+    <Property Name="Usu_ult_Mod" Type="varchar" MaxLength="50" />
+    <Property Name="Fec_ult_mod" Type="datetime" />
+    <Property Name="Estado" Type="varchar" MaxLength="8" />
+  </EntityType>
+  <EntityType Name="Tb_Cliente">
+    <Key>
+      <PropertyRef Name="ID_Cliente" />
+    </Key>
+    <Property Name="ID_Cliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nom_Cli" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Ape_Cli" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Dni_Cli" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="Num_Tel" Type="char" MaxLength="9" />
+    <Property Name="Email_Cli" Type="varchar" MaxLength="30" />
+    <Property Name="Fec_Nac" Type="datetime" />
+    <Property Name="Sex_Cli" Type="varchar" MaxLength="10" />
+    <Property Name="Usu_Reg" Type="varchar" MaxLength="50" />
+    <Property Name="Fec_Reg" Type="datetime" />
+    <Property Name="Usu_ult_Mod" Type="varchar" MaxLength="50" />
+    <Property Name="Fec_ult_mod" Type="datetime" />
+    <Property Name="Estado" Type="varchar" MaxLength="8" />
+  </EntityType>
+  <EntityType Name="Tb_Empleado">
+    <Key>
+      <PropertyRef Name="ID_Empleado" />
+    </Key>
+    <Property Name="ID_Empleado" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nom_Emp" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Ape_Emp" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Dni_Emp" Type="varchar" MaxLength="8" Nullable="false" />
+    <Property Name="Tel_Emp" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="Email_Emp" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Rol_Emp" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Supervisor_ID" Type="int" />
+    <Property Name="Usu_Reg" Type="varchar" MaxLength="50" />
+    <Property Name="Fec_Reg" Type="datetime" />
+    <Property Name="Usu_ult_Mod" Type="varchar" MaxLength="50" />
+    <Property Name="Fec_ult_mod" Type="datetime" />
+    <Property Name="Estado" Type="varchar" MaxLength="8" />
+  </EntityType>
+  <EntityType Name="Tb_Factura">
+    <Key>
+      <PropertyRef Name="ID_Factura" />
+    </Key>
+    <Property Name="ID_Factura" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Reserva" Type="int" Nullable="false" />
+    <Property Name="Fec_Emi" Type="date" Nullable="false" />
+    <Property Name="Total" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="Met_Pag" Type="int" />
+    <Property Name="FechaCreacion" Type="datetime" />
+    <Property Name="FechaActualizacion" Type="datetime" />
+    <Property Name="Auditoria" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Tb_Reserva">
+    <Key>
+      <PropertyRef Name="ID_Reserva" />
+    </Key>
+    <Property Name="ID_Reserva" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Cliente" Type="int" Nullable="false" />
+    <Property Name="ID_Tour" Type="int" Nullable="false" />
+    <Property Name="Fec_Res" Type="date" Nullable="false" />
+    <Property Name="Usu_Reg" Type="varchar" MaxLength="50" />
+    <Property Name="Fec_Reg" Type="datetime" />
+    <Property Name="Usu_ult_Mod" Type="varchar" MaxLength="50" />
+    <Property Name="Fec_ult_mod" Type="datetime" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Tb_Tour">
+    <Key>
+      <PropertyRef Name="ID_Tour" />
+    </Key>
+    <Property Name="ID_Tour" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Est_Tour" Type="char" MaxLength="1" />
+    <Property Name="Fec_Ini_Tour" Type="date" Nullable="false" />
+    <Property Name="Fec_Fin_Tour" Type="date" Nullable="false" />
+    <Property Name="ID_Empleado" Type="int" Nullable="false" />
+    <Property Name="ID_Transporte" Type="int" Nullable="false" />
+    <Property Name="ID_Ubicacion" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tb_Transporte">
+    <Key>
+      <PropertyRef Name="ID_Transporte" />
+    </Key>
+    <Property Name="ID_Transporte" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tip_Tra" Type="varchar" MaxLength="20" />
+    <Property Name="Mod_Tra" Type="int" />
+    <Property Name="Placa" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="Est_Tra" Type="char" MaxLength="1" />
+    <Property Name="ID_Empleado" Type="int" Nullable="false" />
+    <Property Name="Usu_Reg" Type="varchar" MaxLength="50" />
+    <Property Name="Fec_Reg" Type="datetime" />
+    <Property Name="Usu_ult_Mod" Type="varchar" MaxLength="50" />
+    <Property Name="Fec_ult_mod" Type="datetime" />
+    <Property Name="Estado" Type="varchar" MaxLength="8" />
+  </EntityType>
+  <EntityType Name="Tb_Ubicacion">
+    <Key>
+      <PropertyRef Name="ID_Ubicacion" />
+    </Key>
+    <Property Name="ID_Ubicacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Departamento" Type="varchar" MaxLength="30" />
+    <Property Name="Provincia" Type="varchar" MaxLength="40" />
+    <Property Name="Distrito" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Tb_Usuario">
+    <Key>
+      <PropertyRef Name="Login_Usuario" />
+    </Key>
+    <Property Name="Login_Usuario" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Pass_Usu" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Niv_Usu" Type="int" Nullable="false" />
+    <Property Name="Est_Usu" Type="varchar" MaxLength="8" />
+    <Property Name="Fec_Registro" Type="datetime" />
+    <Property Name="Usu_Registro" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Categoria_Alojamiento">
+    <End Role="Tb_Categoria" Type="Self.Tb_Categoria" Multiplicity="1" />
+    <End Role="Tb_Alojamiento" Type="Self.Tb_Alojamiento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Categoria">
+        <PropertyRef Name="ID_Categoria" />
+      </Principal>
+      <Dependent Role="Tb_Alojamiento">
+        <PropertyRef Name="ID_Categoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cliente_Alojamiento">
+    <End Role="Tb_Cliente" Type="Self.Tb_Cliente" Multiplicity="1" />
+    <End Role="Tb_Alojamiento" Type="Self.Tb_Alojamiento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Cliente">
+        <PropertyRef Name="ID_Cliente" />
+      </Principal>
+      <Dependent Role="Tb_Alojamiento">
+        <PropertyRef Name="ID_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cliente_Reserva">
+    <End Role="Tb_Cliente" Type="Self.Tb_Cliente" Multiplicity="1" />
+    <End Role="Tb_Reserva" Type="Self.Tb_Reserva" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Cliente">
+        <PropertyRef Name="ID_Cliente" />
+      </Principal>
+      <Dependent Role="Tb_Reserva">
+        <PropertyRef Name="ID_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Empleado_Tour">
+    <End Role="Tb_Empleado" Type="Self.Tb_Empleado" Multiplicity="1" />
+    <End Role="Tb_Tour" Type="Self.Tb_Tour" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Empleado">
+        <PropertyRef Name="ID_Empleado" />
+      </Principal>
+      <Dependent Role="Tb_Tour">
+        <PropertyRef Name="ID_Empleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Empleado_Transporte">
+    <End Role="Tb_Empleado" Type="Self.Tb_Empleado" Multiplicity="1" />
+    <End Role="Tb_Transporte" Type="Self.Tb_Transporte" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Empleado">
+        <PropertyRef Name="ID_Empleado" />
+      </Principal>
+      <Dependent Role="Tb_Transporte">
+        <PropertyRef Name="ID_Empleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reserva_Factura">
+    <End Role="Tb_Reserva" Type="Self.Tb_Reserva" Multiplicity="1" />
+    <End Role="Tb_Factura" Type="Self.Tb_Factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Reserva">
+        <PropertyRef Name="ID_Reserva" />
+      </Principal>
+      <Dependent Role="Tb_Factura">
+        <PropertyRef Name="ID_Reserva" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Supervisor_Empleado">
+    <End Role="Tb_Empleado" Type="Self.Tb_Empleado" Multiplicity="0..1" />
+    <End Role="Tb_Empleado1" Type="Self.Tb_Empleado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Empleado">
+        <PropertyRef Name="ID_Empleado" />
+      </Principal>
+      <Dependent Role="Tb_Empleado1">
+        <PropertyRef Name="Supervisor_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fk_Tour_Reserva">
+    <End Role="Tb_Tour" Type="Self.Tb_Tour" Multiplicity="1" />
+    <End Role="Tb_Reserva" Type="Self.Tb_Reserva" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Tour">
+        <PropertyRef Name="ID_Tour" />
+      </Principal>
+      <Dependent Role="Tb_Reserva">
+        <PropertyRef Name="ID_Tour" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transporte_Tour">
+    <End Role="Tb_Transporte" Type="Self.Tb_Transporte" Multiplicity="1" />
+    <End Role="Tb_Tour" Type="Self.Tb_Tour" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Transporte">
+        <PropertyRef Name="ID_Transporte" />
+      </Principal>
+      <Dependent Role="Tb_Tour">
+        <PropertyRef Name="ID_Transporte" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ubicacion_Alojamiento">
+    <End Role="Tb_Ubicacion" Type="Self.Tb_Ubicacion" Multiplicity="1" />
+    <End Role="Tb_Alojamiento" Type="Self.Tb_Alojamiento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Ubicacion">
+        <PropertyRef Name="ID_Ubicacion" />
+      </Principal>
+      <Dependent Role="Tb_Alojamiento">
+        <PropertyRef Name="ID_Ubicacion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ubicacion_Tour">
+    <End Role="Tb_Ubicacion" Type="Self.Tb_Ubicacion" Multiplicity="1" />
+    <End Role="Tb_Tour" Type="Self.Tb_Tour" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tb_Ubicacion">
+        <PropertyRef Name="ID_Ubicacion" />
+      </Principal>
+      <Dependent Role="Tb_Tour">
+        <PropertyRef Name="ID_Ubicacion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProyectoTurismoModelStoreContainer">
+    <EntitySet Name="Tb_Alojamiento" EntityType="Self.Tb_Alojamiento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Categoria" EntityType="Self.Tb_Categoria" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Cliente" EntityType="Self.Tb_Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Empleado" EntityType="Self.Tb_Empleado" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Factura" EntityType="Self.Tb_Factura" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Reserva" EntityType="Self.Tb_Reserva" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Tour" EntityType="Self.Tb_Tour" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Transporte" EntityType="Self.Tb_Transporte" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Ubicacion" EntityType="Self.Tb_Ubicacion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tb_Usuario" EntityType="Self.Tb_Usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Categoria_Alojamiento" Association="Self.FK_Categoria_Alojamiento">
+      <End Role="Tb_Categoria" EntitySet="Tb_Categoria" />
+      <End Role="Tb_Alojamiento" EntitySet="Tb_Alojamiento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cliente_Alojamiento" Association="Self.FK_Cliente_Alojamiento">
+      <End Role="Tb_Cliente" EntitySet="Tb_Cliente" />
+      <End Role="Tb_Alojamiento" EntitySet="Tb_Alojamiento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cliente_Reserva" Association="Self.FK_Cliente_Reserva">
+      <End Role="Tb_Cliente" EntitySet="Tb_Cliente" />
+      <End Role="Tb_Reserva" EntitySet="Tb_Reserva" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Empleado_Tour" Association="Self.FK_Empleado_Tour">
+      <End Role="Tb_Empleado" EntitySet="Tb_Empleado" />
+      <End Role="Tb_Tour" EntitySet="Tb_Tour" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Empleado_Transporte" Association="Self.FK_Empleado_Transporte">
+      <End Role="Tb_Empleado" EntitySet="Tb_Empleado" />
+      <End Role="Tb_Transporte" EntitySet="Tb_Transporte" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reserva_Factura" Association="Self.FK_Reserva_Factura">
+      <End Role="Tb_Reserva" EntitySet="Tb_Reserva" />
+      <End Role="Tb_Factura" EntitySet="Tb_Factura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Supervisor_Empleado" Association="Self.FK_Supervisor_Empleado">
+      <End Role="Tb_Empleado" EntitySet="Tb_Empleado" />
+      <End Role="Tb_Empleado1" EntitySet="Tb_Empleado" />
+    </AssociationSet>
+    <AssociationSet Name="Fk_Tour_Reserva" Association="Self.Fk_Tour_Reserva">
+      <End Role="Tb_Tour" EntitySet="Tb_Tour" />
+      <End Role="Tb_Reserva" EntitySet="Tb_Reserva" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transporte_Tour" Association="Self.FK_Transporte_Tour">
+      <End Role="Tb_Transporte" EntitySet="Tb_Transporte" />
+      <End Role="Tb_Tour" EntitySet="Tb_Tour" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ubicacion_Alojamiento" Association="Self.FK_Ubicacion_Alojamiento">
+      <End Role="Tb_Ubicacion" EntitySet="Tb_Ubicacion" />
+      <End Role="Tb_Alojamiento" EntitySet="Tb_Alojamiento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ubicacion_Tour" Association="Self.FK_Ubicacion_Tour">
+      <End Role="Tb_Ubicacion" EntitySet="Tb_Ubicacion" />
+      <End Role="Tb_Tour" EntitySet="Tb_Tour" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

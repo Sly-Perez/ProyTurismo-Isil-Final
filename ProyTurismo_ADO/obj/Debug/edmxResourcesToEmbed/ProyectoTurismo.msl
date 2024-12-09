@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProyectoTurismoModelStoreContainer" CdmEntityContainer="ProyectoTurismoEntities">
+    <EntitySetMapping Name="Tb_Alojamiento">
+      <EntityTypeMapping TypeName="ProyectoTurismoModel.Tb_Alojamiento">
+        <MappingFragment StoreEntitySet="Tb_Alojamiento">
+          <ScalarProperty Name="ID_Alojamiento" ColumnName="ID_Alojamiento" />
+          <ScalarProperty Name="Nom_Alo" ColumnName="Nom_Alo" />
+          <ScalarProperty Name="ID_Cliente" ColumnName="ID_Cliente" />
+          <ScalarProperty Name="ID_Ubicacion" ColumnName="ID_Ubicacion" />
+          <ScalarProperty Name="ID_Categoria" ColumnName="ID_Categoria" />
+          <ScalarProperty Name="Usu_Reg" ColumnName="Usu_Reg" />
+          <ScalarProperty Name="Fec_Reg" ColumnName="Fec_Reg" />
+          <ScalarProperty Name="Usu_ult_Mod" ColumnName="Usu_ult_Mod" />
+          <ScalarProperty Name="Fec_ult_mod" ColumnName="Fec_ult_mod" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Categoria">
+      <EntityTypeMapping TypeName="ProyectoTurismoModel.Tb_Categoria">
+        <MappingFragment StoreEntitySet="Tb_Categoria">
+          <ScalarProperty Name="ID_Categoria" ColumnName="ID_Categoria" />
+          <ScalarProperty Name="Des_Cat" ColumnName="Des_Cat" />
+          <ScalarProperty Name="Tar_Por_Noc" ColumnName="Tar_Por_Noc" />
+          <ScalarProperty Name="Caracteristicas" ColumnName="Caracteristicas" />
+          <ScalarProperty Name="Foto" ColumnName="Foto" />
+          <ScalarProperty Name="Usu_Reg" ColumnName="Usu_Reg" />
+          <ScalarProperty Name="Fec_Reg" ColumnName="Fec_Reg" />
+          <ScalarProperty Name="Usu_ult_Mod" ColumnName="Usu_ult_Mod" />
+          <ScalarProperty Name="Fec_ult_mod" ColumnName="Fec_ult_mod" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Cliente">
+      <EntityTypeMapping TypeName="ProyectoTurismoModel.Tb_Cliente">
+        <MappingFragment StoreEntitySet="Tb_Cliente">
+          <ScalarProperty Name="ID_Cliente" ColumnName="ID_Cliente" />
+          <ScalarProperty Name="Nom_Cli" ColumnName="Nom_Cli" />
+          <ScalarProperty Name="Ape_Cli" ColumnName="Ape_Cli" />
+          <ScalarProperty Name="Dni_Cli" ColumnName="Dni_Cli" />
+          <ScalarProperty Name="Num_Tel" ColumnName="Num_Tel" />
+          <ScalarProperty Name="Email_Cli" ColumnName="Email_Cli" />
+          <ScalarProperty Name="Fec_Nac" ColumnName="Fec_Nac" />
+          <ScalarProperty Name="Sex_Cli" ColumnName="Sex_Cli" />
+          <ScalarProperty Name="Usu_Reg" ColumnName="Usu_Reg" />
+          <ScalarProperty Name="Fec_Reg" ColumnName="Fec_Reg" />
+          <ScalarProperty Name="Usu_ult_Mod" ColumnName="Usu_ult_Mod" />
+          <ScalarProperty Name="Fec_ult_mod" ColumnName="Fec_ult_mod" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Empleado">
+      <EntityTypeMapping TypeName="ProyectoTurismoModel.Tb_Empleado">
+        <MappingFragment StoreEntitySet="Tb_Empleado">
+          <ScalarProperty Name="ID_Empleado" ColumnName="ID_Empleado" />
+          <ScalarProperty Name="Nom_Emp" ColumnName="Nom_Emp" />
+          <ScalarProperty Name="Ape_Emp" ColumnName="Ape_Emp" />
+          <ScalarProperty Name="Dni_Emp" ColumnName="Dni_Emp" />
+          <ScalarProperty Name="Tel_Emp" ColumnName="Tel_Emp" />
+          <ScalarProperty Name="Email_Emp" ColumnName="Email_Emp" />
+          <ScalarProperty Name="Rol_Emp" ColumnName="Rol_Emp" />
+          <ScalarProperty Name="Supervisor_ID" ColumnName="Supervisor_ID" />
+          <ScalarProperty Name="Usu_Reg" ColumnName="Usu_Reg" />
+          <ScalarProperty Name="Fec_Reg" ColumnName="Fec_Reg" />
+          <ScalarProperty Name="Usu_ult_Mod" ColumnName="Usu_ult_Mod" />
+          <ScalarProperty Name="Fec_ult_mod" ColumnName="Fec_ult_mod" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Factura">
+      <EntityTypeMapping TypeName="ProyectoTurismoModel.Tb_Factura">
+        <MappingFragment StoreEntitySet="Tb_Factura">
+          <ScalarProperty Name="ID_Factura" ColumnName="ID_Factura" />
+          <ScalarProperty Name="ID_Reserva" ColumnName="ID_Reserva" />
+          <ScalarProperty Name="Fec_Emi" ColumnName="Fec_Emi" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Met_Pag" ColumnName="Met_Pag" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaActualizacion" ColumnName="FechaActualizacion" />
+          <ScalarProperty Name="Auditoria" ColumnName="Auditoria" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Reserva">
+      <EntityTypeMapping TypeName="ProyectoTurismoModel.Tb_Reserva">
+        <MappingFragment StoreEntitySet="Tb_Reserva">
+          <ScalarProperty Name="ID_Reserva" ColumnName="ID_Reserva" />
+          <ScalarProperty Name="ID_Cliente" ColumnName="ID_Cliente" />
+          <ScalarProperty Name="ID_Tour" ColumnName="ID_Tour" />
+          <ScalarProperty Name="Fec_Res" ColumnName="Fec_Res" />
+          <ScalarProperty Name="Usu_Reg" ColumnName="Usu_Reg" />
+          <ScalarProperty Name="Fec_Reg" ColumnName="Fec_Reg" />
+          <ScalarProperty Name="Usu_ult_Mod" ColumnName="Usu_ult_Mod" />
+          <ScalarProperty Name="Fec_ult_mod" ColumnName="Fec_ult_mod" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Tour">
+      <EntityTypeMapping TypeName="ProyectoTurismoModel.Tb_Tour">
+        <MappingFragment StoreEntitySet="Tb_Tour">
+          <ScalarProperty Name="ID_Tour" ColumnName="ID_Tour" />
+          <ScalarProperty Name="Est_Tour" ColumnName="Est_Tour" />
+          <ScalarProperty Name="Fec_Ini_Tour" ColumnName="Fec_Ini_Tour" />
+          <ScalarProperty Name="Fec_Fin_Tour" ColumnName="Fec_Fin_Tour" />
+          <ScalarProperty Name="ID_Empleado" ColumnName="ID_Empleado" />
+          <ScalarProperty Name="ID_Transporte" ColumnName="ID_Transporte" />
+          <ScalarProperty Name="ID_Ubicacion" ColumnName="ID_Ubicacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Transporte">
+      <EntityTypeMapping TypeName="ProyectoTurismoModel.Tb_Transporte">
+        <MappingFragment StoreEntitySet="Tb_Transporte">
+          <ScalarProperty Name="ID_Transporte" ColumnName="ID_Transporte" />
+          <ScalarProperty Name="Tip_Tra" ColumnName="Tip_Tra" />
+          <ScalarProperty Name="Mod_Tra" ColumnName="Mod_Tra" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="Est_Tra" ColumnName="Est_Tra" />
+          <ScalarProperty Name="ID_Empleado" ColumnName="ID_Empleado" />
+          <ScalarProperty Name="Usu_Reg" ColumnName="Usu_Reg" />
+          <ScalarProperty Name="Fec_Reg" ColumnName="Fec_Reg" />
+          <ScalarProperty Name="Usu_ult_Mod" ColumnName="Usu_ult_Mod" />
+          <ScalarProperty Name="Fec_ult_mod" ColumnName="Fec_ult_mod" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Ubicacion">
+      <EntityTypeMapping TypeName="ProyectoTurismoModel.Tb_Ubicacion">
+        <MappingFragment StoreEntitySet="Tb_Ubicacion">
+          <ScalarProperty Name="ID_Ubicacion" ColumnName="ID_Ubicacion" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Provincia" ColumnName="Provincia" />
+          <ScalarProperty Name="Distrito" ColumnName="Distrito" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tb_Usuario">
+      <EntityTypeMapping TypeName="ProyectoTurismoModel.Tb_Usuario">
+        <MappingFragment StoreEntitySet="Tb_Usuario">
+          <ScalarProperty Name="Login_Usuario" ColumnName="Login_Usuario" />
+          <ScalarProperty Name="Pass_Usu" ColumnName="Pass_Usu" />
+          <ScalarProperty Name="Niv_Usu" ColumnName="Niv_Usu" />
+          <ScalarProperty Name="Est_Usu" ColumnName="Est_Usu" />
+          <ScalarProperty Name="Fec_Registro" ColumnName="Fec_Registro" />
+          <ScalarProperty Name="Usu_Registro" ColumnName="Usu_Registro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

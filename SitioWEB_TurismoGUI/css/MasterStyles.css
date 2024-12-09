@@ -1,0 +1,44 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Parkinsans:wght@300..800&display=swap');
+
+body {
+    font-family: "Parkinsans", sans-serif;
+    font-size: 1rem;
+}
+
+.fondo-asp-content-principal {
+    background-color: #aff8e2;
+}
+
+.menu-principal-altura{
+    background-color: #aff8e2;
+    height: 35rem;
+}
+
+.texto-error{
+    font-size: 1.1rem;
+    color: red;
+}
+.contenido-modal {
+    width: 25%; 
+    margin: auto; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1001;
+}
+.background-modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+.label-personalizado{
+    background-color: #fff;
+    width: 80px;
+    height: 1rem;
+    color: #000;
+}

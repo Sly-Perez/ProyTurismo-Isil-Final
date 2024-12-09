@@ -1,0 +1,14 @@
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_ADO\bin\Debug\ProyTurismo_ADO.dll.config
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_ADO\bin\Debug\ProyTurismo_ADO.dll
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_ADO\bin\Debug\ProyTurismo_ADO.pdb
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_ADO\bin\Debug\EntityFramework.dll
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_ADO\bin\Debug\EntityFramework.SqlServer.dll
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_ADO\bin\Debug\ProyTurismo_BE.dll
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_ADO\bin\Debug\ProyTurismo_BE.pdb
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_ADO\bin\Debug\EntityFramework.xml
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_ADO\bin\Debug\EntityFramework.SqlServer.xml
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_ADO\obj\Debug\ProyTurismo_ADO.csproj.AssemblyReference.cache
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_ADO\obj\Debug\ProyTurismo_ADO.csproj.CoreCompileInputs.cache
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_ADO\obj\Debug\ProyTuri.1DEB2B7C.Up2Date
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_ADO\obj\Debug\ProyTurismo_ADO.dll
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_ADO\obj\Debug\ProyTurismo_ADO.pdb

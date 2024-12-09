@@ -1,0 +1,6 @@
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BE\bin\Debug\ProyTurismo_BE.dll
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BE\bin\Debug\ProyTurismo_BE.pdb
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BE\obj\Debug\ProyTurismo_BE.csproj.AssemblyReference.cache
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BE\obj\Debug\ProyTurismo_BE.csproj.CoreCompileInputs.cache
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BE\obj\Debug\ProyTurismo_BE.dll
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BE\obj\Debug\ProyTurismo_BE.pdb
