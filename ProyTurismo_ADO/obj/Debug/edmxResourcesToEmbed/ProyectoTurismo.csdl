@@ -350,5 +350,44 @@
       <End Role="Tb_Ubicacion" EntitySet="Tb_Ubicacion" />
       <End Role="Tb_Tour" EntitySet="Tb_Tour" />
     </AssociationSet>
+    <EntitySet Name="vw_Factura_reservas_basicas" EntityType="ProyectoTurismoModel.vw_Factura_reservas_basicas" />
+    <FunctionImport Name="usp_ListarClientesConFacturas_DesdeVista" ReturnType="Collection(ProyectoTurismoModel.usp_ListarClientesConFacturas_DesdeVista_Result)">
+      <Parameter Name="CodCli" Mode="In" Type="Int32" />
+      <Parameter Name="EstadoFactura" Mode="In" Type="String" />
+    </FunctionImport>
   </EntityContainer>
+  <EntityType Name="vw_Factura_reservas_basicas">
+    <Key>
+      <PropertyRef Name="ID_Factura" />
+      <PropertyRef Name="Fec_Emi" />
+      <PropertyRef Name="Total" />
+      <PropertyRef Name="ID_Reserva" />
+      <PropertyRef Name="ID_Cliente" />
+      <PropertyRef Name="ID_Tour" />
+      <PropertyRef Name="Fec_Res" />
+    </Key>
+    <Property Name="ID_Factura" Type="Int32" Nullable="false" />
+    <Property Name="Fec_Emi" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Total" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="Met_Pag" Type="Int32" />
+    <Property Name="ID_Reserva" Type="Int32" Nullable="false" />
+    <Property Name="ID_Cliente" Type="Int32" Nullable="false" />
+    <Property Name="ID_Tour" Type="Int32" Nullable="false" />
+    <Property Name="Fec_Res" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <ComplexType Name="usp_ListarClientesConFacturas_DesdeVista_Result">
+    <Property Type="Int32" Name="ID_Cliente" Nullable="false" />
+    <Property Type="String" Name="NombreCompleto" Nullable="false" MaxLength="41" />
+    <Property Type="String" Name="Dni_Cli" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="Num_Tel" Nullable="true" MaxLength="9" />
+    <Property Type="String" Name="Email_Cli" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Estado_Cliente" Nullable="true" MaxLength="8" />
+    <Property Type="Int32" Name="ID_Factura" Nullable="true" />
+    <Property Type="DateTime" Name="FechaEmision" Nullable="true" />
+    <Property Type="Decimal" Name="MontoTotal" Nullable="true" Precision="10" Scale="2" />
+    <Property Type="Int32" Name="MetodoPago" Nullable="true" />
+    <Property Type="Int32" Name="ID_Reserva" Nullable="true" />
+    <Property Type="Int32" Name="ID_Tour" Nullable="true" />
+    <Property Type="DateTime" Name="FechaReserva" Nullable="true" />
+  </ComplexType>
 </Schema>

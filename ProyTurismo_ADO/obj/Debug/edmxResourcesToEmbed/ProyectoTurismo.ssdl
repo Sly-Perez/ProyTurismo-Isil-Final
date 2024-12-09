@@ -141,6 +141,27 @@
     <Property Name="Fec_Registro" Type="datetime" />
     <Property Name="Usu_Registro" Type="varchar" MaxLength="50" />
   </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ProyectoTurismo.dbo.vw_Factura_reservas_basicas' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="vw_Factura_reservas_basicas">
+    <Key>
+      <PropertyRef Name="ID_Factura" />
+      <PropertyRef Name="Fec_Emi" />
+      <PropertyRef Name="Total" />
+      <PropertyRef Name="ID_Reserva" />
+      <PropertyRef Name="ID_Cliente" />
+      <PropertyRef Name="ID_Tour" />
+      <PropertyRef Name="Fec_Res" />
+    </Key>
+    <Property Name="ID_Factura" Type="int" Nullable="false" />
+    <Property Name="Fec_Emi" Type="date" Nullable="false" />
+    <Property Name="Total" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="Met_Pag" Type="int" />
+    <Property Name="ID_Reserva" Type="int" Nullable="false" />
+    <Property Name="ID_Cliente" Type="int" Nullable="false" />
+    <Property Name="ID_Tour" Type="int" Nullable="false" />
+    <Property Name="Fec_Res" Type="date" Nullable="false" />
+  </EntityType>
   <Association Name="FK_Categoria_Alojamiento">
     <End Role="Tb_Categoria" Type="Self.Tb_Categoria" Multiplicity="1" />
     <End Role="Tb_Alojamiento" Type="Self.Tb_Alojamiento" Multiplicity="*" />
@@ -273,6 +294,10 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Function Name="usp_ListarClientesConFacturas_DesdeVista" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CodCli" Type="int" Mode="In" />
+    <Parameter Name="EstadoFactura" Type="varchar" Mode="In" />
+  </Function>
   <EntityContainer Name="ProyectoTurismoModelStoreContainer">
     <EntitySet Name="Tb_Alojamiento" EntityType="Self.Tb_Alojamiento" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Tb_Categoria" EntityType="Self.Tb_Categoria" Schema="dbo" store:Type="Tables" />
@@ -284,6 +309,18 @@
     <EntitySet Name="Tb_Transporte" EntityType="Self.Tb_Transporte" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Tb_Ubicacion" EntityType="Self.Tb_Ubicacion" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Tb_Usuario" EntityType="Self.Tb_Usuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="vw_Factura_reservas_basicas" EntityType="Self.vw_Factura_reservas_basicas" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_Factura_reservas_basicas].[ID_Factura] AS [ID_Factura], 
+    [vw_Factura_reservas_basicas].[Fec_Emi] AS [Fec_Emi], 
+    [vw_Factura_reservas_basicas].[Total] AS [Total], 
+    [vw_Factura_reservas_basicas].[Met_Pag] AS [Met_Pag], 
+    [vw_Factura_reservas_basicas].[ID_Reserva] AS [ID_Reserva], 
+    [vw_Factura_reservas_basicas].[ID_Cliente] AS [ID_Cliente], 
+    [vw_Factura_reservas_basicas].[ID_Tour] AS [ID_Tour], 
+    [vw_Factura_reservas_basicas].[Fec_Res] AS [Fec_Res]
+    FROM [dbo].[vw_Factura_reservas_basicas] AS [vw_Factura_reservas_basicas]</DefiningQuery>
+    </EntitySet>
     <AssociationSet Name="FK_Categoria_Alojamiento" Association="Self.FK_Categoria_Alojamiento">
       <End Role="Tb_Categoria" EntitySet="Tb_Categoria" />
       <End Role="Tb_Alojamiento" EntitySet="Tb_Alojamiento" />

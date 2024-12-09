@@ -26,6 +26,7 @@
         <AssociationConnector Association="ProyectoTurismoModel.Fk_Tour_Reserva" ManuallyRouted="false" />
         <AssociationConnector Association="ProyectoTurismoModel.FK_Transporte_Tour" ManuallyRouted="false" />
         <AssociationConnector Association="ProyectoTurismoModel.FK_Ubicacion_Tour" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ProyectoTurismoModel.vw_Factura_reservas_basicas" Width="1.5" PointX="3.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

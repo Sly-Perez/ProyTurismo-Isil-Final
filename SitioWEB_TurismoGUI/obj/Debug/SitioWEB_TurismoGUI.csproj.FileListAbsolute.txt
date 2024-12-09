@@ -69,3 +69,145 @@ D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\SitioWEB_TurismoGUI\bin\AjaxControlTo
 D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_ADO.dll
 D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_ADO.pdb
 D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_ADO.dll.config
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\SitioWEB_TurismoGUI.dll.config
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\SitioWEB_TurismoGUI.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\SitioWEB_TurismoGUI.pdb
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\csc.exe
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\csc.exe.config
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\csc.rsp
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\csi.exe
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\csi.exe.config
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\csi.rsp
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.AppContext.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Console.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.IO.Compression.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Net.Http.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.ValueTuple.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\vbc.exe
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\vbc.exe.config
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\vbc.rsp
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\AjaxControlToolkit.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\EntityFramework.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\EntityFramework.SqlServer.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_BE.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_BL.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_ADO.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_BE.pdb
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_BL.pdb
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\EntityFramework.xml
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\EntityFramework.SqlServer.xml
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_ADO.pdb
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_ADO.dll.config
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\obj\Debug\SitioWEB_TurismoGUI.csproj.AssemblyReference.cache
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\obj\Debug\SitioWEB_TurismoGUI.csproj.CoreCompileInputs.cache
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\obj\Debug\SitioWEB.19C11DA9.Up2Date
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\obj\Debug\SitioWEB_TurismoGUI.dll
+C:\Users\renzo\source\repos\ProyTurismoEF\ProyTurismoEF\SitioWEB_TurismoGUI\obj\Debug\SitioWEB_TurismoGUI.pdb
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\SitioWEB_TurismoGUI.dll.config
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\SitioWEB_TurismoGUI.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\SitioWEB_TurismoGUI.pdb
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\csc.exe
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\csc.exe.config
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\csc.rsp
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\csi.exe
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\csi.exe.config
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\csi.rsp
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.AppContext.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Console.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.IO.Compression.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Net.Http.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.ValueTuple.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\vbc.exe
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\vbc.exe.config
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\vbc.rsp
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\AjaxControlToolkit.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\EntityFramework.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\EntityFramework.SqlServer.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_BE.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_BL.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_ADO.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_BE.pdb
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_BL.pdb
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\EntityFramework.xml
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\EntityFramework.SqlServer.xml
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_ADO.pdb
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\bin\ProyTurismo_ADO.dll.config
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\obj\Debug\SitioWEB_TurismoGUI.csproj.AssemblyReference.cache
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\obj\Debug\SitioWEB_TurismoGUI.csproj.CoreCompileInputs.cache
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\obj\Debug\SitioWEB.19C11DA9.Up2Date
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\obj\Debug\SitioWEB_TurismoGUI.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\SitioWEB_TurismoGUI\obj\Debug\SitioWEB_TurismoGUI.pdb

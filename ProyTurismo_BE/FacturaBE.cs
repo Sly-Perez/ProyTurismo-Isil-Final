@@ -17,5 +17,8 @@ namespace ProyTurismo_BE
         public DateTime FechaActualizacion { get; set; }
         public String Auditoria { get; set; }
 
+
+
+
     }
 }

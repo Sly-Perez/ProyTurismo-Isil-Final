@@ -77,12 +77,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="consultas\WebCategoria.aspx" />
+    <Content Include="consultas\WebCliente.aspx">
+      <BrowseToURL>~/consultas/WebCliente.aspx</BrowseToURL>
+    </Content>
     <Content Include="consultas\WebReservaDepartamento.aspx" />
     <Content Include="css\MasterStyles.css" />
     <Content Include="paginaInicio\Inicio.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="consultas\WebCategoria.aspx.cs">
+      <DependentUpon>WebCategoria.aspx</DependentUpon>
+      <BrowseToURL>~/consultas/WebCategoria.aspx</BrowseToURL>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consultas\WebCategoria.aspx.designer.cs">
+      <DependentUpon>WebCategoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consultas\WebCliente.aspx.cs">
+      <DependentUpon>WebCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consultas\WebCliente.aspx.designer.cs">
+      <DependentUpon>WebCliente.aspx</DependentUpon>
+    </Compile>
     <Compile Include="consultas\WebReservaDepartamento.aspx.cs">
       <DependentUpon>WebReservaDepartamento.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -117,6 +136,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ProyTurismo_ADO\ProyTurismo_ADO.csproj">
+      <Project>{9D830FA9-D784-4A1E-AADA-C804B0152CC9}</Project>
+      <Name>ProyTurismo_ADO</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ProyTurismo_BE\ProyTurismo_BE.csproj">
       <Project>{24dea00f-7ae1-4831-9c57-adc67bc22d3c}</Project>
       <Name>ProyTurismo_BE</Name>

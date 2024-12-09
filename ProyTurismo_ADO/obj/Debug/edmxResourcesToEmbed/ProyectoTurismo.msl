@@ -152,5 +152,38 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="vw_Factura_reservas_basicas">
+      <EntityTypeMapping TypeName="ProyectoTurismoModel.vw_Factura_reservas_basicas">
+        <MappingFragment StoreEntitySet="vw_Factura_reservas_basicas">
+          <ScalarProperty Name="Fec_Res" ColumnName="Fec_Res" />
+          <ScalarProperty Name="ID_Tour" ColumnName="ID_Tour" />
+          <ScalarProperty Name="ID_Cliente" ColumnName="ID_Cliente" />
+          <ScalarProperty Name="ID_Reserva" ColumnName="ID_Reserva" />
+          <ScalarProperty Name="Met_Pag" ColumnName="Met_Pag" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Fec_Emi" ColumnName="Fec_Emi" />
+          <ScalarProperty Name="ID_Factura" ColumnName="ID_Factura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="usp_ListarClientesConFacturas_DesdeVista" FunctionName="ProyectoTurismoModel.Store.usp_ListarClientesConFacturas_DesdeVista">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ProyectoTurismoModel.usp_ListarClientesConFacturas_DesdeVista_Result">
+          <ScalarProperty Name="ID_Cliente" ColumnName="ID_Cliente" />
+          <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+          <ScalarProperty Name="Dni_Cli" ColumnName="Dni_Cli" />
+          <ScalarProperty Name="Num_Tel" ColumnName="Num_Tel" />
+          <ScalarProperty Name="Email_Cli" ColumnName="Email_Cli" />
+          <ScalarProperty Name="Estado_Cliente" ColumnName="Estado_Cliente" />
+          <ScalarProperty Name="ID_Factura" ColumnName="ID_Factura" />
+          <ScalarProperty Name="FechaEmision" ColumnName="FechaEmision" />
+          <ScalarProperty Name="MontoTotal" ColumnName="MontoTotal" />
+          <ScalarProperty Name="MetodoPago" ColumnName="MetodoPago" />
+          <ScalarProperty Name="ID_Reserva" ColumnName="ID_Reserva" />
+          <ScalarProperty Name="ID_Tour" ColumnName="ID_Tour" />
+          <ScalarProperty Name="FechaReserva" ColumnName="FechaReserva" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>
