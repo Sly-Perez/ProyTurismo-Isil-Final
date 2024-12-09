@@ -81,6 +81,7 @@
     <Content Include="consultas\WebCliente.aspx">
       <BrowseToURL>~/consultas/WebCliente.aspx</BrowseToURL>
     </Content>
+    <Content Include="consultas\WebEmpleado.aspx" />
     <Content Include="consultas\WebReservaDepartamento.aspx" />
     <Content Include="css\MasterStyles.css" />
     <Content Include="paginaInicio\Inicio.aspx" />
@@ -101,6 +102,13 @@
     </Compile>
     <Compile Include="consultas\WebCliente.aspx.designer.cs">
       <DependentUpon>WebCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consultas\WebEmpleado.aspx.cs">
+      <DependentUpon>WebEmpleado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consultas\WebEmpleado.aspx.designer.cs">
+      <DependentUpon>WebEmpleado.aspx</DependentUpon>
     </Compile>
     <Compile Include="consultas\WebReservaDepartamento.aspx.cs">
       <DependentUpon>WebReservaDepartamento.aspx</DependentUpon>

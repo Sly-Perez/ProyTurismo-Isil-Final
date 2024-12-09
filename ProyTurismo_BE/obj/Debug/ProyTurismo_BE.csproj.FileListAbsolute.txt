@@ -16,3 +16,9 @@ C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\ProyTurismo_BE\ob
 C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\ProyTurismo_BE\obj\Debug\ProyTurismo_BE.csproj.CoreCompileInputs.cache
 C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\ProyTurismo_BE\obj\Debug\ProyTurismo_BE.dll
 C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\ProyTurismo_BE\obj\Debug\ProyTurismo_BE.pdb
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BE\bin\Debug\ProyTurismo_BE.dll
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BE\bin\Debug\ProyTurismo_BE.pdb
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BE\obj\Debug\ProyTurismo_BE.csproj.AssemblyReference.cache
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BE\obj\Debug\ProyTurismo_BE.csproj.CoreCompileInputs.cache
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BE\obj\Debug\ProyTurismo_BE.dll
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BE\obj\Debug\ProyTurismo_BE.pdb

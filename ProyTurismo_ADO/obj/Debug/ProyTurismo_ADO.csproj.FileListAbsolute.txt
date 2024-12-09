@@ -40,3 +40,17 @@ C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\ProyTurismo_ADO\o
 C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\ProyTurismo_ADO\obj\Debug\ProyTuri.1DEB2B7C.Up2Date
 C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\ProyTurismo_ADO\obj\Debug\ProyTurismo_ADO.dll
 C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\ProyTurismo_ADO\obj\Debug\ProyTurismo_ADO.pdb
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_ADO\bin\Debug\ProyTurismo_ADO.dll.config
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_ADO\bin\Debug\ProyTurismo_ADO.dll
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_ADO\bin\Debug\ProyTurismo_ADO.pdb
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_ADO\bin\Debug\EntityFramework.dll
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_ADO\bin\Debug\EntityFramework.SqlServer.dll
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_ADO\bin\Debug\ProyTurismo_BE.dll
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_ADO\bin\Debug\ProyTurismo_BE.pdb
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_ADO\bin\Debug\EntityFramework.xml
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_ADO\bin\Debug\EntityFramework.SqlServer.xml
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_ADO\obj\Debug\ProyTurismo_ADO.csproj.AssemblyReference.cache
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_ADO\obj\Debug\ProyTurismo_ADO.csproj.CoreCompileInputs.cache
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_ADO\obj\Debug\ProyTuri.1DEB2B7C.Up2Date
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_ADO\obj\Debug\ProyTurismo_ADO.dll
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_ADO\obj\Debug\ProyTurismo_ADO.pdb

@@ -40,3 +40,17 @@ C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\ProyTurismo_BL\ob
 C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\ProyTurismo_BL\obj\Debug\ProyTuri.E814557F.Up2Date
 C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.dll
 C:\Users\14-CF2074LA\Downloads\ProyTurismoEF (2)\ProyTurismoEF\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.pdb
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BL\bin\Debug\ProyTurismo_BL.dll
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BL\bin\Debug\ProyTurismo_BL.pdb
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BL\bin\Debug\ProyTurismo_ADO.dll
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BL\bin\Debug\ProyTurismo_BE.dll
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BL\bin\Debug\EntityFramework.dll
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BL\bin\Debug\ProyTurismo_ADO.pdb
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BL\bin\Debug\ProyTurismo_ADO.dll.config
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BL\bin\Debug\ProyTurismo_BE.pdb
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BL\bin\Debug\EntityFramework.xml
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.csproj.AssemblyReference.cache
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.csproj.CoreCompileInputs.cache
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BL\obj\Debug\ProyTuri.E814557F.Up2Date
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.dll
+E:\Nueva carpeta\Nueva carpeta\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.pdb
