@@ -54,6 +54,7 @@
       <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -82,6 +83,7 @@
       <BrowseToURL>~/consultas/WebCliente.aspx</BrowseToURL>
     </Content>
     <Content Include="consultas\WebEmpleado.aspx" />
+    <Content Include="consultas\WebGraficoReservaDep.aspx" />
     <Content Include="consultas\WebReservaDepartamento.aspx" />
     <Content Include="css\MasterStyles.css" />
     <Content Include="paginaInicio\Inicio.aspx" />
@@ -109,6 +111,13 @@
     </Compile>
     <Compile Include="consultas\WebEmpleado.aspx.designer.cs">
       <DependentUpon>WebEmpleado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consultas\WebGraficoReservaDep.aspx.cs">
+      <DependentUpon>WebGraficoReservaDep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consultas\WebGraficoReservaDep.aspx.designer.cs">
+      <DependentUpon>WebGraficoReservaDep.aspx</DependentUpon>
     </Compile>
     <Compile Include="consultas\WebReservaDepartamento.aspx.cs">
       <DependentUpon>WebReservaDepartamento.aspx</DependentUpon>

@@ -1,4 +1,5 @@
 ﻿using ProyTurismo_ADO;
+using ProyTurismo_BE;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,11 @@ namespace ProyTurismo_BL
         public List<String> ListarDepartamentosUbicaciones()
         {
             return objUbicacionADO.ListarDepartamentosUbicaciones();
+        }
+
+        public List<UbicacionFacturacionBE> ListarFacturacionUbicacion()
+        {
+            return objUbicacionADO.ListarFacturacionUbicacion();
         }
     }
 }

@@ -7,56 +7,47 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SitioWEB_TurismoGUI
+namespace SitioWEB_TurismoGUI.consultas
 {
 
 
-    public partial class MasterTurismo
+    public partial class WebGraficoReservaDep
     {
 
         /// <summary>
-        /// Titulo control.
+        /// grvResultado control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder Titulo;
+        protected global::System.Web.UI.WebControls.GridView grvResultado;
 
         /// <summary>
-        /// Cabecera control.
+        /// grafMontoTotal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder Cabecera;
+        protected global::System.Web.UI.DataVisualization.Charting.Chart grafMontoTotal;
 
         /// <summary>
-        /// form1 control.
+        /// grafCantidadReservas control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.DataVisualization.Charting.Chart grafCantidadReservas;
 
         /// <summary>
-        /// ScriptManager1 control.
+        /// lblMensajeError control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.ScriptManager ScriptManager1;
-
-        /// <summary>
-        /// Principal control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder Principal;
+        protected global::System.Web.UI.WebControls.Label lblMensajeError;
     }
 }

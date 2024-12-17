@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\ISIL\\DES. APP I\\proyectos\\ProyTurismoEF\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCA9C71-4DCB-4322-A508-27FC159F4E08}|SitioWEB_TurismoGUI\\SitioWEB_TurismoGUI.csproj|d:\\isil\\des. app i\\proyectos\\proyturismoef\\sitioweb_turismogui\\consultas\\webreservadepartamento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1CCA9C71-4DCB-4322-A508-27FC159F4E08}|SitioWEB_TurismoGUI\\SitioWEB_TurismoGUI.csproj|solutionrelative:sitioweb_turismogui\\consultas\\webreservadepartamento.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,11 +54,24 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebReservaDepartamento.aspx",
+              "DocumentMoniker": "D:\\ISIL\\DES. APP I\\proyectos\\ProyTurismoEF\\SitioWEB_TurismoGUI\\consultas\\WebReservaDepartamento.aspx",
+              "RelativeDocumentMoniker": "SitioWEB_TurismoGUI\\consultas\\WebReservaDepartamento.aspx",
+              "ToolTip": "D:\\ISIL\\DES. APP I\\proyectos\\ProyTurismoEF\\SitioWEB_TurismoGUI\\consultas\\WebReservaDepartamento.aspx",
+              "RelativeToolTip": "SitioWEB_TurismoGUI\\consultas\\WebReservaDepartamento.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-17T17:15:17.589Z",
+              "EditorCaption": ""
             }
           ]
         }

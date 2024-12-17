@@ -42,6 +42,19 @@
                       <li><a class="dropdown-item" href="../consultas/WebCliente.aspx">Cliente</a></li>
                     </ul>
                   </li>
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Consultas Con Gráfico
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../consultas/WebGraficoReservaDep.aspx">Reserva</a></li>
+                        <li><a class="dropdown-item" href="">Empleado</a></li>
+                        <li><a class="dropdown-item" href="">Categoría</a></li>
+                        <li><a class="dropdown-item" href="">Cliente</a></li>
+                      </ul>
+                    </li>
+
                   <li class="nav-item">
                     <a class="nav-link disabled" aria-disabled="true">Mantenimiento</a>
                   </li>
