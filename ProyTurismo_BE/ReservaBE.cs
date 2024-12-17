@@ -11,11 +11,15 @@ namespace ProyTurismo_BE
         public Int16 Id_Reserva { get; set; }
         public Int16 Id_Cliente { get; set; }
         public Int16 Id_Tour { get; set; }
+        public Int16 Id_Factura {  get; set; }
+        public DateTime Fec_Emi { get; set; }
+        public String Est_Tour { get; set; }
         public Int16 Id_Ubicacion { get; set; }
         public String Departamento {  get; set; }
         public String Provincia {  get; set; }
         public String Distrito {  get; set; }
         public Single Total {  get; set; }
+        public String Met_Pag {  get; set; }
         public DateTime Fec_Res { get; set; }
         public String Usu_Reg { get; set; }
         public DateTime Fec_Reg { get; set; }

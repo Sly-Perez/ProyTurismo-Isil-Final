@@ -59,7 +59,7 @@ namespace ProyTurismo_ADO
             }
         }
 
-        public List<ReservaBE> ListarReservasFechas(DateTime fechaIni, DateTime fechaFin)
+        public List<ReservaBE> ListarReservasFechas(Int16 Codigo, DateTime fechaIni, DateTime fechaFin)
         {
             try
             {
@@ -69,35 +69,60 @@ namespace ProyTurismo_ADO
 
 
                 var query = (
-                                (from miReserva in TurismoBaseDatos.Tb_Reserva
-                                 join miTour in TurismoBaseDatos.Tb_Tour
-                                 on miReserva.ID_Tour equals miTour.ID_Tour
+                                (from miTour in TurismoBaseDatos.Tb_Tour
+                                 join miReserva in TurismoBaseDatos.Tb_Reserva
+                                 on miTour.ID_Tour equals miReserva.ID_Tour
+                                 join miFactura in TurismoBaseDatos.Tb_Factura
+                                 on miReserva.ID_Reserva equals miFactura.ID_Reserva
                                  join miUbicacion in TurismoBaseDatos.Tb_Ubicacion
                                  on miTour.ID_Ubicacion equals miUbicacion.ID_Ubicacion
-                                 where (miReserva.Fec_Res >= fechaIni && miReserva.Fec_Res <= fechaFin)
+                                 where ((miTour.ID_Tour == Codigo) && (miFactura.Fec_Emi >= fechaIni && miFactura.Fec_Emi <= fechaFin))
                                  select new
                                  {
-                                     miReserva.ID_Reserva,
-                                     miReserva.Fec_Res,
                                      miTour.ID_Tour,
-                                     miUbicacion.ID_Ubicacion,
+                                     miTour.Est_Tour,
+                                     miFactura.Fec_Emi,
+                                     miFactura.Total,
                                      miUbicacion.Departamento,
                                      miUbicacion.Provincia,
-                                     miUbicacion.Distrito
+                                     miUbicacion.Distrito,
+                                     miFactura.Met_Pag,
+                                     miFactura.ID_Factura
                                  }).ToList()
                             );
 
                 foreach (var resultado in query)
                 {
                     ReservaBE objReservaBE = new ReservaBE();
-                    objReservaBE.Id_Reserva = Convert.ToInt16(resultado.ID_Reserva);
-                    objReservaBE.Fec_Res = resultado.Fec_Res;
+                    objReservaBE.Id_Factura = Convert.ToInt16(resultado.ID_Factura);
                     objReservaBE.Id_Tour = Convert.ToInt16(resultado.ID_Tour);
-                    objReservaBE.Id_Ubicacion = Convert.ToInt16(resultado.ID_Ubicacion);
+                    
+                    if(resultado.Est_Tour.Equals(0))
+                    {
+                        objReservaBE.Est_Tour = "Activo";
+                    }
+                    else
+                    {
+                        objReservaBE.Est_Tour = "Finalizado";
+                    }
+
+                    objReservaBE.Fec_Emi = Convert.ToDateTime(resultado.Fec_Emi);
+                    objReservaBE.Total = Convert.ToSingle(resultado.Total);
                     objReservaBE.Departamento = resultado.Departamento;
                     objReservaBE.Provincia = resultado.Provincia;
                     objReservaBE.Distrito = resultado.Distrito;
 
+                    if(resultado.Met_Pag == 0)
+                    {
+                        objReservaBE.Met_Pag = "Efectivo";
+                    }
+                    else if(resultado.Met_Pag == 1){
+                        objReservaBE.Met_Pag = "Tarjeta de crédito";
+                    }
+                    else
+                    {
+                        objReservaBE.Met_Pag = "Tarjeta de débito";
+                    }
                     
 
                     objListaReservaBE.Add(objReservaBE);

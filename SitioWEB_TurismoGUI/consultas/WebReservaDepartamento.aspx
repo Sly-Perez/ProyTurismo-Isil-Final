@@ -49,15 +49,15 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Principal" runat="server">
-    <h1>Reservas por Departamento y Fecha</h1>
+    <h1>Facturación de reservas por Tour y Fecha</h1>
     <br />
 
     <table class="auto-style1">
         <tr>
-            <td class="auto-style2">Seleccione Departamento:</td>
+            <td class="auto-style2">Ingrese Código de Tour:</td>
             <td class="auto-style5">
-                <ajaxToolkit:ComboBox ID="cboDepartamentos" runat="server" AutoPostBack="False" DropDownStyle="DropDownList" AutoCompleteMode="SuggestAppend" CaseSensitive="False" ItemInsertLocation="OrdinalText">
-                </ajaxToolkit:ComboBox>
+                <asp:TextBox ID="txtCodigoTour" runat="server" TextMode="Number" Width="41px"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtCodigoTour" CssClass="texto-error" ErrorMessage="Obligatorio"></asp:RequiredFieldValidator>
             </td>
             <td class="auto-style4">&nbsp;</td>
             <td>&nbsp;</td>
@@ -79,10 +79,9 @@
             <td class="auto-style11">
                 <asp:Button ID="btnConsultar" runat="server" Text="Consultar" CssClass="btn btn-outline-success" OnClick="btnConsultar_Click" />
             </td>
-            <td class="auto-style12">Monto Total Generado (s/):</td>
+            <td class="auto-style12">&nbsp;</td>
             <td class="auto-style13">
-                <asp:TextBox ID="txtTotal" runat="server" ReadOnly="True" Width="108px"></asp:TextBox>
-                </td>
+                &nbsp;</td>
         </tr>
         <tr>
             <td class="auto-style6"></td>
@@ -96,14 +95,20 @@
                 <asp:TextBox ID="txtCantidadReg" runat="server" ReadOnly="True" Width="50px"></asp:TextBox>
                 </td>
             <td class="auto-style4">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>
+                <asp:Button ID="btnDescargarExcel" runat="server" CssClass="btn btn-success" OnClick="btnDescargarExcel_Click" Text="Descargar Excel" />
+            </td>
         </tr>
         <tr>
             <td colspan="4">
                 <asp:GridView ID="grvReservas" runat="server" AllowPaging="True" AutoGenerateColumns="False" CssClass="table table-striped table-dark rounded my-3" OnPageIndexChanging="grvReservas_PageIndexChanging" ShowHeaderWhenEmpty="True" PageSize="5">
                     <Columns>
-                        <asp:BoundField DataField="ID_Reserva" HeaderText="Código Reserva" ReadOnly="True" />
-                        <asp:BoundField DataField="Fec_Res" DataFormatString="{0:d}" HeaderText="Fecha Reserva" ReadOnly="True" />
+                        <asp:BoundField DataField="Id_Factura" HeaderText="Nro Factura" />
+                        <asp:BoundField DataField="Fec_Emi" HeaderText="Fecha Emisión" DataFormatString="{0:d}" />
+                        <asp:BoundField DataField="Total" HeaderText="Monto Total" DataFormatString="{0:n}" />
+                        <asp:BoundField DataField="Met_Pag" HeaderText="Método Pago" />
+                        <asp:BoundField DataField="ID_Tour" HeaderText="Código Tour" ReadOnly="True" />
+                        <asp:BoundField DataField="Est_Tour" HeaderText="Estado Tour" />
                         <asp:BoundField DataField="Departamento" HeaderText="Departamento" ReadOnly="True" />
                         <asp:BoundField DataField="Provincia" HeaderText="Provincia" ReadOnly="True" />
                         <asp:BoundField DataField="Distrito" HeaderText="Distrito" ReadOnly="True" />

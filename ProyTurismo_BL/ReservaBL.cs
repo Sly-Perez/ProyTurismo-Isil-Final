@@ -17,9 +17,9 @@ namespace ProyTurismo_BL
             return objReservaADO.ListarReservasDepartamentoFechas(strDepartamento, fechaIni, fechaFin);
         }
 
-        public List<ReservaBE> ListarReservasFechas(DateTime fechaIni, DateTime fechaFin)
+        public List<ReservaBE> ListarReservasFechas(Int16 Codigo,DateTime fechaIni, DateTime fechaFin)
         {
-            return objReservaADO.ListarReservasFechas(fechaIni, fechaFin);
+            return objReservaADO.ListarReservasFechas(Codigo, fechaIni, fechaFin);
         }
         public Single CalcularTotalDepartamentoFechas(String strDepartamento, DateTime fechaIni, DateTime fechaFin)
         {
