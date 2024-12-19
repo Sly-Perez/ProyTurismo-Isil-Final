@@ -103,6 +103,9 @@
       <DependentUpon>ProyectoTurismo.tt</DependentUpon>
     </Compile>
     <Compile Include="UbicacionADO.cs" />
+    <Compile Include="usp_CliFechas_Result.cs">
+      <DependentUpon>ProyectoTurismo.tt</DependentUpon>
+    </Compile>
     <Compile Include="usp_ListarClientesConFacturas_DesdeVista_Result.cs">
       <DependentUpon>ProyectoTurismo.tt</DependentUpon>
     </Compile>

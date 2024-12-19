@@ -82,31 +82,73 @@ E:\Final\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Memory.xml
 E:\Final\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Numerics.Vectors.xml
 E:\Final\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 E:\Final\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Buffers.xml
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_BL.dll
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_BL.pdb
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_ADO.dll
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_BE.dll
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EntityFramework.dll
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EPPlus.dll
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EPPlus.Interfaces.dll
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EPPlus.System.Drawing.dll
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Memory.dll
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Buffers.dll
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_ADO.pdb
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_ADO.dll.config
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_BE.pdb
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EntityFramework.xml
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EPPlus.xml
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Memory.xml
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Buffers.xml
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.csproj.AssemblyReference.cache
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.csproj.CoreCompileInputs.cache
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\obj\Debug\ProyTuri.E814557F.Up2Date
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.dll
-C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.pdb
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_BL.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_BL.pdb
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_ADO.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_BE.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EntityFramework.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EPPlus.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Memory.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Buffers.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_ADO.pdb
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_ADO.dll.config
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_BE.pdb
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EntityFramework.xml
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EPPlus.xml
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Memory.xml
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Buffers.xml
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.csproj.AssemblyReference.cache
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.csproj.CoreCompileInputs.cache
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\obj\Debug\ProyTuri.E814557F.Up2Date
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.dll
+C:\Users\14-CF2074LA\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.pdb
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_BL.dll
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_BL.pdb
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_ADO.dll
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_BE.dll
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EntityFramework.dll
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EPPlus.dll
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Memory.dll
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Buffers.dll
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_ADO.pdb
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_ADO.dll.config
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\ProyTurismo_BE.pdb
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EntityFramework.xml
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\EPPlus.xml
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Memory.xml
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\bin\Debug\System.Buffers.xml
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.csproj.AssemblyReference.cache
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.csproj.CoreCompileInputs.cache
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\obj\Debug\ProyTuri.E814557F.Up2Date
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.dll
+C:\Users\SlyPe\Downloads\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo-EF\ProyTurismo_BL\obj\Debug\ProyTurismo_BL.pdb
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BL\bin\Debug\EPPlus.dll
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BL\bin\Debug\EPPlus.Interfaces.dll
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BL\bin\Debug\EPPlus.System.Drawing.dll
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BL\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BL\bin\Debug\System.Memory.dll
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BL\bin\Debug\System.Numerics.Vectors.dll
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BL\bin\Debug\System.Buffers.dll
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BL\bin\Debug\EPPlus.xml
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BL\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BL\bin\Debug\System.Memory.xml
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BL\bin\Debug\System.Numerics.Vectors.xml
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ISIL\DES. APP I\proyectos\ProyTurismoEF\ProyTurismo_BL\bin\Debug\System.Buffers.xml

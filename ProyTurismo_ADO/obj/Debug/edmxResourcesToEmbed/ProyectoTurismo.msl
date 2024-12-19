@@ -185,5 +185,22 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_CliFechas" FunctionName="ProyectoTurismoModel.Store.usp_CliFechas">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ProyectoTurismoModel.usp_CliFechas_Result">
+          <ScalarProperty Name="NombreCliente" ColumnName="NombreCliente" />
+          <ScalarProperty Name="DNICliente" ColumnName="DNICliente" />
+          <ScalarProperty Name="IDCliente" ColumnName="IDCliente" />
+          <ScalarProperty Name="ID_Reserva" ColumnName="ID_Reserva" />
+          <ScalarProperty Name="FechaReserva" ColumnName="FechaReserva" />
+          <ScalarProperty Name="EstadoReserva" ColumnName="EstadoReserva" />
+          <ScalarProperty Name="NombreAlojamiento" ColumnName="NombreAlojamiento" />
+          <ScalarProperty Name="Categoria" ColumnName="Categoria" />
+          <ScalarProperty Name="Tar_Por_Noc" ColumnName="Tar_Por_Noc" />
+          <ScalarProperty Name="Noches" ColumnName="Noches" />
+          <ScalarProperty Name="MontoTotal" ColumnName="MontoTotal" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

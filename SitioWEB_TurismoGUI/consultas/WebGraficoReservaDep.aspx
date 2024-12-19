@@ -30,7 +30,7 @@
         </tr>
         <tr>
             <td>
-                <asp:Chart ID="grafMontoTotal" runat="server" Height="362px" Width="507px">
+                <asp:Chart ID="grafMontoTotal" runat="server" Height="390px" Width="507px">
                     <series>
                         <asp:Series Name="Series1">
                         </asp:Series>
@@ -46,7 +46,7 @@
                 </asp:Chart>
             </td>
             <td>
-                <asp:Chart ID="grafCantidadReservas" runat="server" Height="354px" Width="528px">
+                <asp:Chart ID="grafCantidadReservas" runat="server" Height="383px" Width="528px">
                     <series>
                         <asp:Series Name="Series1">
                         </asp:Series>

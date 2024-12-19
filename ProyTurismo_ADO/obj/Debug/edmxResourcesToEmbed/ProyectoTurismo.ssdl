@@ -294,6 +294,10 @@ advertencia 6002: La tabla o vista 'ProyectoTurismo.dbo.vw_Factura_reservas_basi
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Function Name="usp_CliFechas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="FechaInicio" Type="date" Mode="In" />
+    <Parameter Name="FechaFin" Type="date" Mode="In" />
+  </Function>
   <Function Name="usp_ListarClientesConFacturas_DesdeVista" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="CodCli" Type="int" Mode="In" />
     <Parameter Name="EstadoFactura" Type="varchar" Mode="In" />

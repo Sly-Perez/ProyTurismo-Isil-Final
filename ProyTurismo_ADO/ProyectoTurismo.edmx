@@ -299,6 +299,10 @@ advertencia 6002: La tabla o vista 'ProyectoTurismo.dbo.vw_Factura_reservas_basi
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Function Name="usp_CliFechas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="FechaInicio" Type="date" Mode="In" />
+          <Parameter Name="FechaFin" Type="date" Mode="In" />
+        </Function>
         <Function Name="usp_ListarClientesConFacturas_DesdeVista" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="CodCli" Type="int" Mode="In" />
           <Parameter Name="EstadoFactura" Type="varchar" Mode="In" />
@@ -730,6 +734,10 @@ advertencia 6002: La tabla o vista 'ProyectoTurismo.dbo.vw_Factura_reservas_basi
             <Parameter Name="CodCli" Mode="In" Type="Int32" />
             <Parameter Name="EstadoFactura" Mode="In" Type="String" />
           </FunctionImport>
+          <FunctionImport Name="usp_CliFechas" ReturnType="Collection(ProyectoTurismoModel.usp_CliFechas_Result)">
+            <Parameter Name="FechaInicio" Mode="In" Type="DateTime" />
+            <Parameter Name="FechaFin" Mode="In" Type="DateTime" />
+          </FunctionImport>
         </EntityContainer>
         <EntityType Name="vw_Factura_reservas_basicas">
           <Key>
@@ -764,6 +772,19 @@ advertencia 6002: La tabla o vista 'ProyectoTurismo.dbo.vw_Factura_reservas_basi
           <Property Type="Int32" Name="ID_Reserva" Nullable="true" />
           <Property Type="Int32" Name="ID_Tour" Nullable="true" />
           <Property Type="DateTime" Name="FechaReserva" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="usp_CliFechas_Result">
+          <Property Type="String" Name="NombreCliente" Nullable="false" MaxLength="41" />
+          <Property Type="String" Name="DNICliente" Nullable="false" MaxLength="8" />
+          <Property Type="Int32" Name="IDCliente" Nullable="false" />
+          <Property Type="Int32" Name="ID_Reserva" Nullable="false" />
+          <Property Type="DateTime" Name="FechaReserva" Nullable="false" />
+          <Property Type="String" Name="EstadoReserva" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="NombreAlojamiento" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="Categoria" Nullable="false" MaxLength="255" />
+          <Property Type="Decimal" Name="Tar_Por_Noc" Nullable="false" Precision="10" Scale="2" />
+          <Property Type="Int32" Name="Noches" Nullable="true" />
+          <Property Type="Decimal" Name="MontoTotal" Nullable="true" Precision="21" Scale="2" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -952,6 +973,23 @@ advertencia 6002: La tabla o vista 'ProyectoTurismo.dbo.vw_Factura_reservas_basi
                 <ScalarProperty Name="ID_Reserva" ColumnName="ID_Reserva" />
                 <ScalarProperty Name="ID_Tour" ColumnName="ID_Tour" />
                 <ScalarProperty Name="FechaReserva" ColumnName="FechaReserva" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="usp_CliFechas" FunctionName="ProyectoTurismoModel.Store.usp_CliFechas">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ProyectoTurismoModel.usp_CliFechas_Result">
+                <ScalarProperty Name="NombreCliente" ColumnName="NombreCliente" />
+                <ScalarProperty Name="DNICliente" ColumnName="DNICliente" />
+                <ScalarProperty Name="IDCliente" ColumnName="IDCliente" />
+                <ScalarProperty Name="ID_Reserva" ColumnName="ID_Reserva" />
+                <ScalarProperty Name="FechaReserva" ColumnName="FechaReserva" />
+                <ScalarProperty Name="EstadoReserva" ColumnName="EstadoReserva" />
+                <ScalarProperty Name="NombreAlojamiento" ColumnName="NombreAlojamiento" />
+                <ScalarProperty Name="Categoria" ColumnName="Categoria" />
+                <ScalarProperty Name="Tar_Por_Noc" ColumnName="Tar_Por_Noc" />
+                <ScalarProperty Name="Noches" ColumnName="Noches" />
+                <ScalarProperty Name="MontoTotal" ColumnName="MontoTotal" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>

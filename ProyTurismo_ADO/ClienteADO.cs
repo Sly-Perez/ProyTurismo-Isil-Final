@@ -6,12 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ProyTurismo_ADO;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace ProyTurismo_ADO
 {
     public class ClienteADO
     {
-       
+
         public List<FacturaClienteBE> ListarFacturacionClienteEntreFechasYEstado(int idCliente, DateTime fechaInicio, DateTime fechaFin, string estado)
         {
             try
@@ -20,7 +22,7 @@ namespace ProyTurismo_ADO
 
                 using (ProyectoTurismoEntities db = new ProyectoTurismoEntities())
                 {
-                    
+
                     var query = db.usp_ListarClientesConFacturas_DesdeVista(idCliente, estado);
 
                     foreach (var item in query)
@@ -46,7 +48,40 @@ namespace ProyTurismo_ADO
             }
         }
 
-       
+
+        public List<ClienteBE> ListarReservasEntreFechas(DateTime fechaInicio, DateTime fechaFin)
+        {
+            List<ClienteBE> reservas = new List<ClienteBE>();
+
+            try
+            {
+                // Instancia del contexto de Entity Framework
+                using (ProyectoTurismoEntities TurismoBaseDatos = new ProyectoTurismoEntities())
+                {
+                    // Crear el parámetro para el procedimiento almacenado
+                    var fechaInicioParam = new SqlParameter("@FechaInicio", fechaInicio);
+                    var fechaFinParam = new SqlParameter("@FechaFin", fechaFin);
+
+                    // Ejecutar el procedimiento almacenado usando el contexto
+                    var query = TurismoBaseDatos.Database.SqlQuery<ClienteBE>(
+                        "EXEC usp_CliFechas @FechaInicio, @FechaFin",
+                        fechaInicioParam,
+                        fechaFinParam
+                    ).ToList();
+
+                    // Agregar los resultados al listado de reservas
+                    reservas.AddRange(query);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al ejecutar el procedimiento almacenado usp_CliFechas: " + ex.Message);
+            }
+
+            return reservas;
+        }
+
+
         public List<FacturaClienteBE> ListarFacturacionClientePorEstado(int idCliente, string estado)
         {
             try
@@ -154,4 +189,5 @@ namespace ProyTurismo_ADO
             }
         }
     }
+
 }

@@ -51,7 +51,8 @@
                         <li><a class="dropdown-item" href="../consultas/WebGraficoReservaDep.aspx">Reserva</a></li>
                         <li><a class="dropdown-item" href="../consultas/WebGraficoEmpleado.aspx">Empleado</a></li>
                         <li><a class="dropdown-item" href="../consultas/WebGraficoCategoria.aspx">Categoría</a></li>
-                        <li><a class="dropdown-item" href="">Cliente</a></li>
+                        <li><a class="dropdown-item" href="../consultas/WebClientesGrafico.aspx">Cliente</a></li>
+
                       </ul>
                     </li>
 

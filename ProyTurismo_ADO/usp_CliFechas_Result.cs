@@ -13,26 +13,31 @@ namespace ProyTurismo_ADO
 {
 
 using System;
-    using System.Collections.Generic;
     
-public partial class vw_Factura_reservas_basicas
+public partial class usp_CliFechas_Result
 {
 
-    public int ID_Factura { get; set; }
+    public string NombreCliente { get; set; }
 
-    public System.DateTime Fec_Emi { get; set; }
+    public string DNICliente { get; set; }
 
-    public decimal Total { get; set; }
-
-    public Nullable<int> Met_Pag { get; set; }
+    public int IDCliente { get; set; }
 
     public int ID_Reserva { get; set; }
 
-    public int ID_Cliente { get; set; }
+    public System.DateTime FechaReserva { get; set; }
 
-    public int ID_Tour { get; set; }
+    public string EstadoReserva { get; set; }
 
-    public System.DateTime Fec_Res { get; set; }
+    public string NombreAlojamiento { get; set; }
+
+    public string Categoria { get; set; }
+
+    public decimal Tar_Por_Noc { get; set; }
+
+    public Nullable<int> Noches { get; set; }
+
+    public Nullable<decimal> MontoTotal { get; set; }
 
 }
 

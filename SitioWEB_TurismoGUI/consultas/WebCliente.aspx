@@ -48,12 +48,6 @@
 
     <table class="auto-style1 table table-borderless rounded shadow-sm">
         <tr>
-            <td class="auto-style2">Código Cliente:</td>
-            <td class="auto-style3">
-                <asp:TextBox ID="txtCodigoCliente" runat="server" CssClass="auto-style4" Placeholder="Ingrese ID Cliente" Width="148px"></asp:TextBox>
-            </td>
-        </tr>
-        <tr>
             <td class="auto-style2">Fecha Inicio:</td>
             <td class="auto-style3">
                 <asp:TextBox ID="txtFechaInicio" runat="server" TextMode="Date" CssClass="auto-style4" Width="146px"></asp:TextBox>
@@ -66,20 +60,16 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style2">Estado:</td>
-            <td class="auto-style3">
-                <asp:DropDownList ID="ddlEstado" runat="server" CssClass="auto-style5" Height="27px" Width="234px">
-                    <asp:ListItem Text="Todos" Value="" />
-                    <asp:ListItem Text="Activo" Value="Activo" />
-                    <asp:ListItem Text="Inactivo" Value="Inactivo" />
-                </asp:DropDownList>
-            </td>
-        </tr>
-        <tr>
             <td></td>
             <td>
+
                 <asp:Button ID="btnConsultar" runat="server" Text="Consultar" CssClass="btn btn-success mt-3" OnClick="btnConsultar_Click" />
             </td>
+            <td>
+
+            <asp:Button ID="btnDescargarExcel" runat="server" Text="Descargar Excel" CssClass="btn btn-primary mt-3" OnClick="btnDescargarExcel_Click" />
+
+            </td>   
         </tr>
     </table>
 
@@ -88,11 +78,16 @@
         <asp:Label ID="lblCantidadFacturas" runat="server" CssClass="text-success"></asp:Label>
         <asp:GridView ID="grvFacturacion" runat="server" CssClass="table table-striped" AutoGenerateColumns="False" AllowPaging="True" PageSize="5" OnPageIndexChanging="grvFacturacion_PageIndexChanging">
             <Columns>
-                <asp:BoundField DataField="IdFactura" HeaderText="ID Factura" />
-                <asp:BoundField DataField="Nombre" HeaderText="Nombre Completo" />
-                <asp:BoundField DataField="FechaEmision" HeaderText="Fecha Emisión" DataFormatString="{0:dd/MM/yyyy}" />
-                <asp:BoundField DataField="Total" HeaderText="Monto Total" DataFormatString="{0:C}" />
-                <asp:BoundField DataField="EstadoFactura" HeaderText="Estado" />
+                
+                <asp:BoundField DataField="NombreCliente" HeaderText="Nombre Cliente" SortExpression="NombreCliente" />
+                <asp:BoundField DataField="DNICliente" HeaderText="DNI Cliente" SortExpression="DNICliente" />
+                <asp:BoundField DataField="FechaReserva" HeaderText="Fecha Reserva" SortExpression="FechaReserva" DataFormatString="{0:dd/MM/yyyy}" />
+                <asp:BoundField DataField="EstadoReserva" HeaderText="Estado Reserva" SortExpression="EstadoReserva" />
+                <asp:BoundField DataField="NombreAlojamiento" HeaderText="Alojamiento" SortExpression="NombreAlojamiento" />
+                <asp:BoundField DataField="Categoria" HeaderText="Categoría" SortExpression="Categoria" />
+                <asp:BoundField DataField="Tar_Por_Noc" HeaderText="Tarifa Noche" SortExpression="Tar_Por_Noc" DataFormatString="{0:C}" />
+                <asp:BoundField DataField="Noches" HeaderText="Noches" SortExpression="Noches" />
+                <asp:BoundField DataField="MontoTotal" HeaderText="Monto Total" SortExpression="MontoTotal" DataFormatString="{0:C}" />
             </Columns>
         </asp:GridView>
     </div>

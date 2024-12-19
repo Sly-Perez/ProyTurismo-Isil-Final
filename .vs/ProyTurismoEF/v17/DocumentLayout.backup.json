@@ -1,11 +1,11 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\SlyPe\\Downloads\\ProyTurismo-EF\\ProyTurismo-EF\\",
+  "WorkspaceRootPath": "D:\\ISIL\\DES. APP I\\proyectos\\ProyTurismoEF\\",
   "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 100,
+      "VerticalTabListWidth": 113,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -50,13 +50,7 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 441,
-          "SelectedChildIndex": -1,
-          "Children": [
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"

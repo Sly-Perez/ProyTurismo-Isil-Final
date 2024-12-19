@@ -119,6 +119,7 @@
     <Content Include="consultas\WebCliente.aspx">
       <BrowseToURL>~/consultas/WebCliente.aspx</BrowseToURL>
     </Content>
+    <Content Include="consultas\WebClientesGrafico.aspx" />
     <Content Include="consultas\WebEmpleado.aspx" />
     <Content Include="consultas\WebGraficoCategoria.aspx" />
     <Content Include="consultas\WebGraficoEmpleado.aspx" />
@@ -143,6 +144,13 @@
     </Compile>
     <Compile Include="consultas\WebCliente.aspx.designer.cs">
       <DependentUpon>WebCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consultas\WebClientesGrafico.aspx.cs">
+      <DependentUpon>WebClientesGrafico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consultas\WebClientesGrafico.aspx.designer.cs">
+      <DependentUpon>WebClientesGrafico.aspx</DependentUpon>
     </Compile>
     <Compile Include="consultas\WebEmpleado.aspx.cs">
       <DependentUpon>WebEmpleado.aspx</DependentUpon>

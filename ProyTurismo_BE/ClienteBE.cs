@@ -6,21 +6,20 @@ using System.Threading.Tasks;
 
 namespace ProyTurismo_BE
 {
-    public class ClientesBE
+    public class ClienteBE
     {
 
-        public Int16 ID_Cliente { get; set; }
-        public String Nom_Cli { get; set; }
-        public String Ape_Cli { get; set; }
-        public String Dni_Cli { get; set; }
-        public String Num_Tel { get; set; }
-        public String Email_Cli { get; set; }
-        public DateTime Fec_Nac { get; set; }
-        public String Sex_Cli { get; set; }
-        public String Usu_Reg { get; set; }
-        public DateTime Fec_Reg { get; set; }
-        public String Usu_Ult_Mod { get; set; }
-        public DateTime Fec_Ult_Mod { get; set; }
-        public String Estado { get; set; }
+        public string NombreCliente { get; set; }
+        public string DNICliente { get; set; }
+        public int IDCliente { get; set; }
+        public int IDReserva { get; set; }
+        public DateTime FechaReserva { get; set; }
+        public string EstadoReserva { get; set; }
+        public string NombreAlojamiento { get; set; }
+        public string Categoria { get; set; }
+        public decimal TarifaPorNoche { get; set; }
+        public int Noches { get; set; }
+        public decimal MontoTotal { get; set; }
+        public decimal Tar_Por_Noc { get; set; }
     }
 }

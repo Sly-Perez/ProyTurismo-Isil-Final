@@ -11,61 +11,43 @@ namespace SitioWEB_TurismoGUI.consultas
 {
 
 
-    public partial class WebCliente
+    public partial class WebClientesGrafico
     {
 
         /// <summary>
-        /// Control txtFechaInicio.
+        /// Control grvResultado.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFechaInicio;
+        protected global::System.Web.UI.WebControls.GridView grvResultado;
 
         /// <summary>
-        /// Control txtFechaFin.
+        /// Control grafMontoTotal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFechaFin;
+        protected global::System.Web.UI.DataVisualization.Charting.Chart grafMontoTotal;
 
         /// <summary>
-        /// Control btnConsultar.
+        /// Control grafCantidadReservas.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnConsultar;
+        protected global::System.Web.UI.DataVisualization.Charting.Chart grafCantidadReservas;
 
         /// <summary>
-        /// Control btnDescargarExcel.
+        /// Control lblMensajeError.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnDescargarExcel;
-
-        /// <summary>
-        /// Control lblCantidadFacturas.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCantidadFacturas;
-
-        /// <summary>
-        /// Control grvFacturacion.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView grvFacturacion;
+        protected global::System.Web.UI.WebControls.Label lblMensajeError;
     }
 }
