@@ -8,25 +8,23 @@ namespace ProyTurismo_ADO
 {
     public class EmpleadoADO
     {
-        // Método para listar empleados por ID, nombre, apellido, estado, etc.
         public List<EmpleadoBE> ListarEmpleados(string idEmpleado, string nombre, string apellido, string dni, string estado)
         {
             try
             {
-                // Instanciar el contexto de la base de datos
+   
                 ProyectoTurismoEntities db = new ProyectoTurismoEntities();
 
-                // Lista para almacenar los resultados
+    
                 List<EmpleadoBE> listaEmpleados = new List<EmpleadoBE>();
 
-                // Convertir idEmpleado de string a int, si es posible
+    
                 int? idEmpleadoInt = null;
                 if (int.TryParse(idEmpleado, out int result))
                 {
                     idEmpleadoInt = result;
                 }
 
-                // Consulta LINQ para obtener los empleados
                 var query = (from empleado in db.Tb_Empleado
                              where (idEmpleadoInt == null || empleado.ID_Empleado == idEmpleadoInt) &&
                                    (string.IsNullOrEmpty(nombre) || empleado.Nom_Emp.Contains(nombre)) &&
@@ -48,7 +46,6 @@ namespace ProyTurismo_ADO
                                  empleado.Estado
                              }).ToList();
 
-                // Mapear los resultados de la consulta a la lista de objetos EmpleadoBE
                 foreach (var resultado in query)
                 {
                     EmpleadoBE empleado = new EmpleadoBE
@@ -60,9 +57,9 @@ namespace ProyTurismo_ADO
                         Tel_Emp = resultado.Tel_Emp,
                         Email_Emp = resultado.Email_Emp,
                         Rol_Emp = resultado.Rol_Emp,
-                        Supervisor_ID = resultado.Supervisor_ID, // Nullable int
-                        Fec_Reg = resultado.Fec_Reg,  // Nullable DateTime
-                        Fec_ult_mod = resultado.Fec_ult_mod, // Nullable DateTime
+                        Supervisor_ID = resultado.Supervisor_ID,
+                        Fec_Reg = resultado.Fec_Reg,  
+                        Fec_ult_mod = resultado.Fec_ult_mod, 
                         Estado = resultado.Estado
                     };
 
@@ -77,14 +74,12 @@ namespace ProyTurismo_ADO
             }
         }
 
-        // Método para obtener un empleado por su ID
         public EmpleadoBE ObtenerEmpleadoPorID(string idEmpleado)
         {
             try
             {
                 ProyectoTurismoEntities db = new ProyectoTurismoEntities();
 
-                // Convertir idEmpleado de string a int, si es posible
                 int? idEmpleadoInt = null;
                 if (int.TryParse(idEmpleado, out int result))
                 {
@@ -119,15 +114,15 @@ namespace ProyTurismo_ADO
                         Tel_Emp = resultado.Tel_Emp,
                         Email_Emp = resultado.Email_Emp,
                         Rol_Emp = resultado.Rol_Emp,
-                        Supervisor_ID = resultado.Supervisor_ID, // Nullable int
-                        Fec_Reg = resultado.Fec_Reg,  // Nullable DateTime
-                        Fec_ult_mod = resultado.Fec_ult_mod, // Nullable DateTime
+                        Supervisor_ID = resultado.Supervisor_ID,
+                        Fec_Reg = resultado.Fec_Reg,  
+                        Fec_ult_mod = resultado.Fec_ult_mod, 
                         Estado = resultado.Estado
                     };
                 }
                 else
                 {
-                    return null; // Si no se encuentra el empleado
+                    return null;
                 }
             }
             catch (EntityException ex)
@@ -135,8 +130,6 @@ namespace ProyTurismo_ADO
                 throw new Exception("Error al obtener el empleado por ID: " + ex.Message);
             }
         }
-
-        // Método para contar empleados por estado
         public int ContarEmpleadosPorEstado(string estado)
         {
             try

@@ -39,6 +39,10 @@
                         <asp:ChartArea Name="ChartArea1">
                         </asp:ChartArea>
                     </chartareas>
+                    <Titles>
+                        <asp:Title BackColor="255, 255, 128" Font="Microsoft Sans Serif, 12pt" Name="title1" Text="Monto Total Generado por Departamento">
+                        </asp:Title>
+                    </Titles>
                 </asp:Chart>
             </td>
             <td>
@@ -51,6 +55,10 @@
                         <asp:ChartArea Name="ChartArea1">
                         </asp:ChartArea>
                     </chartareas>
+                    <Titles>
+                        <asp:Title BackColor="255, 128, 0" Font="Microsoft Sans Serif, 12pt" Name="Title1" Text="Cantidad de Reservas por Departamento">
+                        </asp:Title>
+                    </Titles>
                 </asp:Chart>
             </td>
         </tr>

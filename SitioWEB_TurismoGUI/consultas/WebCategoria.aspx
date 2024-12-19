@@ -59,7 +59,12 @@
         </div>
         <br />
         <h3 class="text-center">Categorías Encontradas</h3>
-        <asp:GridView ID="gvCategorias" runat="server" CssClass="table table-bordered table-hover" AutoGenerateColumns="False">
+        
+        <div class="text-center">
+            <asp:Button ID="btnDescargarExcel" runat="server" CssClass="btn btn-success btn-spacing" Text="Descargar Excel" OnClick="btnDescargarExcel_Click" />
+        </div>
+
+        <asp:GridView ID="gvCategorias" runat="server" CssClass="table table-bordered table-hover" AutoGenerateColumns="False"  Visible="false">
             <Columns>
                 <asp:BoundField DataField="ID_Categoria" HeaderText="ID" />
                 <asp:BoundField DataField="Des_Cat" HeaderText="Descripción" />

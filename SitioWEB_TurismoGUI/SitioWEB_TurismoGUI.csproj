@@ -73,8 +73,11 @@
     <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
     </Reference>
-    <Reference Include="System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Drawing.Common.8.0.4\lib\net462\System.Drawing.Common.dll</HintPath>
+    <Reference Include="System.Drawing.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.9.0.0\lib\net462\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Packaging.9.0.0\lib\net462\System.IO.Packaging.dll</HintPath>
     </Reference>
     <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
@@ -104,6 +107,7 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
@@ -116,6 +120,8 @@
       <BrowseToURL>~/consultas/WebCliente.aspx</BrowseToURL>
     </Content>
     <Content Include="consultas\WebEmpleado.aspx" />
+    <Content Include="consultas\WebGraficoCategoria.aspx" />
+    <Content Include="consultas\WebGraficoEmpleado.aspx" />
     <Content Include="consultas\WebGraficoReservaDep.aspx" />
     <Content Include="consultas\WebReservaDepartamento.aspx" />
     <Content Include="css\MasterStyles.css" />
@@ -144,6 +150,20 @@
     </Compile>
     <Compile Include="consultas\WebEmpleado.aspx.designer.cs">
       <DependentUpon>WebEmpleado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consultas\WebGraficoCategoria.aspx.cs">
+      <DependentUpon>WebGraficoCategoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consultas\WebGraficoCategoria.aspx.designer.cs">
+      <DependentUpon>WebGraficoCategoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consultas\WebGraficoEmpleado.aspx.cs">
+      <DependentUpon>WebGraficoEmpleado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consultas\WebGraficoEmpleado.aspx.designer.cs">
+      <DependentUpon>WebGraficoEmpleado.aspx</DependentUpon>
     </Compile>
     <Compile Include="consultas\WebGraficoReservaDep.aspx.cs">
       <DependentUpon>WebGraficoReservaDep.aspx</DependentUpon>

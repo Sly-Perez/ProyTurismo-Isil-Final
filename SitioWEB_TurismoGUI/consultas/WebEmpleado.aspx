@@ -59,6 +59,8 @@
         </div>
         <br />
         <h3 class="text-center">Empleados Encontrados</h3>
+        <asp:Label ID="lblError" runat="server" ForeColor="Red" Visible="false"></asp:Label>
+
         <asp:GridView ID="gvEmpleados" runat="server" CssClass="table table-bordered table-hover" AutoGenerateColumns="False">
             <Columns>
                 <asp:BoundField DataField="ID_Empleado" HeaderText="ID" />
@@ -68,5 +70,9 @@
                 <asp:BoundField DataField="Estado" HeaderText="Estado" />
             </Columns>
         </asp:GridView>
+        <div class="text-center">
+        <asp:Button ID="btnDescargarExcel" runat="server" CssClass="btn btn-success" Text="Descargar Excel" OnClick="btnDescargarExcel_Click" />
+            </div>
+
     </div>
 </asp:Content>

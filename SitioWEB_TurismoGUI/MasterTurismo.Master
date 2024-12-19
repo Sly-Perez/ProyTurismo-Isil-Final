@@ -49,8 +49,8 @@
                       </a>
                       <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="../consultas/WebGraficoReservaDep.aspx">Reserva</a></li>
-                        <li><a class="dropdown-item" href="">Empleado</a></li>
-                        <li><a class="dropdown-item" href="">Categoría</a></li>
+                        <li><a class="dropdown-item" href="../consultas/WebGraficoEmpleado.aspx">Empleado</a></li>
+                        <li><a class="dropdown-item" href="../consultas/WebGraficoCategoria.aspx">Categoría</a></li>
                         <li><a class="dropdown-item" href="">Cliente</a></li>
                       </ul>
                     </li>

@@ -117,7 +117,7 @@ namespace SitioWEB_TurismoGUI.consultas
                 using (var pck = new OfficeOpenXml.ExcelPackage(new FileInfo(rutaPlantilla)))
                 {
                     
-                    String filename = "ListadoFacturasCliente_" + DateTime.Today.ToShortDateString();
+                    String filename = "ListadoFactuReservaTour_" + DateTime.Today.ToShortDateString();
                     
                     ExcelWorksheet ws = pck.Workbook.Worksheets["Hoja1"];
 
